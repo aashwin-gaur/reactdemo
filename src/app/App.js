@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './App.css';
 import Header from '../template/header/header'
+import { Footer } from '../template/footer/footer';
 class App extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Header/>
+        <Footer/>
       </div>
     );
   }
